@@ -5,8 +5,8 @@ jobs:
     name: Hello world action from this yaml file
     runs-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v1
-      -uses: ./action-a
+      - uses: actions/checkout@v1
+      - uses: ./action-a
         with:
           MY_NAME: "Stealthfish"
           
